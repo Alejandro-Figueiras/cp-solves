@@ -6,3 +6,7 @@ workspace/
 # Del Code:Blocks
 *.cbp
 *.layout
+*.depend
+
+# Del Visual Studio Code
+.vscode/
