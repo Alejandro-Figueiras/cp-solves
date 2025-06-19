@@ -1,10 +1,10 @@
-<center>
+<div align="center">
 
 ![ICPC LOGO](./icpc-logo.png)
 
 # Soluciones a Problemas de Programación Competitiva
 
-</center>
+</div>
 
 Este repositorio contiene soluciones a problemas de programación competitiva, organizadas por plataformas.
 
