@@ -6,7 +6,7 @@ int main() {
   int t; cin >> t;
   while (t--) {
     int n; cin >> n;
-    char a[n], b[n];
+    char a[n], b[n]; // <-- el error esta aquí, cambiando esto por un string deberia dar ac
     cin >> a >> b;
     vector<char> pares;
     vector<char> impares;
