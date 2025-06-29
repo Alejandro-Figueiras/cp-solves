@@ -10,3 +10,7 @@ workspace/
 
 # Del Visual Studio Code
 .vscode/
+
+# File I/O
+*.in
+*.out
