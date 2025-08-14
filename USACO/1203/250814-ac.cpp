@@ -13,9 +13,8 @@ int main() {
     int minSteps = n-1;
 
     while(firstSum < n) {
-      int steps = 0; int sum = 0; bool ok = true; 
+      int places = 0; int sum = 0; bool ok = true; 
       for (int i = 0; i < n; i++) {
-        if (sum != 0) steps++;
         sum+= a[i];
         if (sum > maxx || (i==n-1 && sum != maxx)) {
           firstSum++;
@@ -25,11 +24,12 @@ int main() {
         }
         if (sum == maxx) {
           sum = 0;
+          places++;
         }
       }
 
       if (ok) {
-        minSteps = min(minSteps, steps);
+        minSteps = min(minSteps, n-places);
         break;
       }
     }
