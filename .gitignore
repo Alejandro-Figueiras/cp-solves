@@ -10,6 +10,7 @@ workspace/
 
 # Del Visual Studio Code
 .vscode/
+.cph
 
 # File I/O
 *.in
