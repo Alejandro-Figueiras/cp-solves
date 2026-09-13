@@ -21,7 +21,6 @@ Este repositorio contiene soluciones a problemas de programación competitiva, o
 
 ## To Do
 
-- Problemas desde CodeChef
 - Problemas de la OCI
 - Problemas de ICPC Carribean Final Qualifier 2021
 - Problemas de ICPC Carribean Final Qualifier 2022
